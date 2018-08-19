@@ -1,0 +1,43 @@
+body {
+	background-image:url(willian-justen-de-vasconcellos-603962-unsplash.jpg);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+
+}
+
+.btn-lg {
+	height: 100px;
+	width: 200px;
+	justify-content: center;
+	position: fixed;
+	bottom: 10px;
+	border-radius: 18px;
+	background-color: rgba(182, 86, 0, 85%);
+	color: #575c6a;
+	transition: 1s;
+}
+
+.btn-lg:hover {
+	background-color: rgba(182, 86, 0, 100%);
+}
+
+.h-contain {
+	display: flex;
+	justify-content: center;
+}
+
+h1{
+	font-family: "Merriweather", serif;
+	color: white;
+	display: flex;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	height: 120px;
+	font-size: 5em;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
